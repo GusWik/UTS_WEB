@@ -1,0 +1,95 @@
+
+/*STYLE dari bagian layout*/
+body { 
+	font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
+	display: grid;
+	grid-template-areas: 
+	"header header header"
+	"nav section aside"
+	"footer footer footer";
+	grid-template-rows: 80px 1fr 50px;
+	grid-template-columns: 15% 1fr 18%;
+	grid-gap: 5px;
+	height: 100vh;
+	margin: 10px;  
+}
+.p1{
+	margin-left: 20px
+}
+.p2{
+	margin-left: 20px
+}
+.berita{
+	margin-left: 20px
+}
+header {
+	background: #cff09e;
+	grid-area: header;
+}
+
+nav {
+	background: #a8dba8;
+	grid-area: nav; 
+	
+}
+
+section {
+	background: #79bd9a;
+	grid-area: section;    
+}
+
+aside {
+	background: #a8dba8;
+	grid-area: aside; 
+	padding-left: 40px;
+
+}
+
+footer {
+	background: #cff09e;
+	grid-area: footer;
+}
+
+header, nav, section, aside, footer {
+	padding: 1px;
+}
+
+/* Style texnya */
+.text{
+	margin-right: 10px;
+}
+
+.nav-link {
+	color: black;
+	margin-top:10;
+}
+
+/* Style kotaknya */
+.garis_tepi1 {
+	margin-left: 180px;
+	position: center;
+	width:500px;
+	height: 300px;
+	border: 2px solid black;
+}
+
+/* style dari tulisan data mahasiswanya */
+.dm {
+	margin-left:18px;
+	margin-top: 15px;
+}
+
+.navbar{
+	margin-left: 20px;
+}
+
+.nav-sisi {
+	text-align: center;
+}
+
+.top{
+	margin-top: 25px;
+}
+.top2{
+	margin-top: 25px;	
+}
